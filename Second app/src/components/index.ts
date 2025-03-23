@@ -1,7 +1,11 @@
-// filepath: /Users/elisabethvollum/Documents/Github/MyApps/MyApps/Second app/src/components/index.ts
 class MainComponent {
     render() {
-        console.log('Rendering MainComponent...');
+        const appDiv = document.getElementById('app');
+        if (appDiv) {
+            appDiv.innerHTML = '<h1>Welcome to My App!</h1>';
+        } else {
+            console.error('App div not found!');
+        }
     }
 }
 
