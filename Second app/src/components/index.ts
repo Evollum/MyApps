@@ -1,14 +1,7 @@
+// filepath: /Users/elisabethvollum/Documents/Github/MyApps/MyApps/Second app/src/components/index.ts
 class MainComponent {
-    constructor() {
-        // Initialization code here
-    }
-
     render() {
-        // Code to render the component
-    }
-
-    handleUserInteraction(event: Event) {
-        // Code to handle user interactions
+        console.log('Rendering MainComponent...');
     }
 }
 
